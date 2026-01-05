@@ -96,7 +96,7 @@ export default function ContactPage() {
                       </div>
                       <div>
                         <h3 className="font-semibold mb-2">Phone</h3>
-                        <p className="text-sm text-muted-foreground">+91 XXXXX XXXXX</p>
+                        <p className="text-sm text-muted-foreground">+91 8126609605</p>
                         <p className="text-xs text-muted-foreground mt-1 flex items-center gap-2">
                           <Clock3 className="h-3.5 w-3.5" /> Mon-Sat: 9:00 AM - 6:00 PM
                         </p>
@@ -173,7 +173,7 @@ export default function ContactPage() {
                             type="tel"
                             value={formData.phone}
                             onChange={handleChange}
-                            placeholder="+91 XXXXX XXXXX"
+                            placeholder="+91 8126609605"
                           />
                         </div>
                         <div className="space-y-2">
